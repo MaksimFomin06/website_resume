@@ -1,2 +1,32 @@
 {% extends "main/jeneral.html" %}
+{% load static %}
 {% block title %} Главная {% endblock %}
+{% block main %}
+<div class="resume_container">
+    <div class="main_inf">
+        <div>
+            <img src="{% static 'main/images/my_photo.PNG' %}" alt="">
+        </div>
+        <div class="fio_post">
+            <p id="name">Maksim</p>
+            <p id="female">Fomin</p>
+            <p>developer</p>
+        </div>
+        <div class="links">
+            <a href="" class="contacts">tg</a>
+            <a href="" class="contacts">vk</a>
+            <a href="" class="contacts">wh</a>
+        </div>
+    </div>
+    <div>
+        intro
+    </div>
+    <div>
+        expertise
+    </div>
+    <div>
+        skills
+    </div>
+
+</div>
+{% endblock %}
