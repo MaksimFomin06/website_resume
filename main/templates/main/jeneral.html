@@ -16,12 +16,16 @@
         <a href=""><img src="{% static 'main/images/logo.PNG' %}" alt=""></a>
         <nav>
             <a href="" class="menu-item">Обо мне</a>
+            <a href="" class="menu-item">Навыки</a> 
+            <a href="" class="menu-item">Пройденные курсы</a> 
             <a href="" class="menu-item">Мои работы</a>
-            <a href="" class="menu-item">Навыки</a>
             <a href="" class="menu-item">Контакты</a>
         </nav>
     </header>
-    {% block main %}{% endblock %}
+    <div class="container">
+        
+        {% block main %}{% endblock %}
+    </div>
 </body>
 
 </html>
